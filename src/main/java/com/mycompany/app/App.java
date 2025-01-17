@@ -15,4 +15,7 @@ cccDDSD
     public String getMessage() {
         return MESSAGE;
     }
+        public String getMessage() {
+        return MESSAGE;
+    }
 }  
