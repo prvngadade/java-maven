@@ -16,5 +16,7 @@ cccDDSD
     public String getMessage() {
         return MESSAGE;
     }
-    Ffsflsflf{
+  public String getMessage() {
+        return MESSAGE;
+    }
 }  
