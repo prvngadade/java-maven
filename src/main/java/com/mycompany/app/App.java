@@ -12,13 +12,7 @@ cccDDSD
     public static void main(String[] args) {
         System.out.println(MESSAGE);
     }
-  public static void main(String[] args) {
-        System.out.println(MESSAGE);
-    }
     public String getMessage() {
-        return MESSAGE;
-    }
-  public String getMessage() {
         return MESSAGE;
     }
 }  
