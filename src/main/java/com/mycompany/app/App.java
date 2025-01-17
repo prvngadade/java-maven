@@ -6,7 +6,6 @@ package com.mycompany.app;
 public class App {
 
     private static final String MESSAGE = "Hello World!";
-cccDDSD
     public App() {}
 
     public static void main(String[] args) {
