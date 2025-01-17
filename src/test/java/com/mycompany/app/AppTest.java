@@ -23,6 +23,3 @@ public class AppTest
         assertEquals("Hello World!", app.getMessage());
     }
 }
-sdjskjdjs
-
-    dsjdjsd;sdd
