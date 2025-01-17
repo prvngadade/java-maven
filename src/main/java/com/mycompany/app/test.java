@@ -1,13 +1,31 @@
-public class BuggyCode {
-    public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5};
-        int sum = 0;
+package com.mycompany.app;
 
-        // This loop is intended to calculate the sum of all elements in the array
-        for (int i = 0; i <= numbers.length; i++) {
-            sum += numbers[i];
+public class App {
+    public static void main(String[] args) {
+        // Hardcoded value
+        int hardcodedValue = 42;
+
+        // Unused variable
+        int unusedVariable = 100;
+
+        // Potential NullPointerException
+        String potentiallyNullString = null;
+        System.out.println(potentiallyNullString.length());
+
+        // Inefficient loop
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                System.out.println("i: " + i + ", j: " + j);
+            }
         }
 
-        System.out.println("The sum of the array elements is: " + sum);
+        // Duplicate code
+        if (hardcodedValue == 42) {
+            System.out.println("The answer to life, the universe, and everything.");
+        }
+        if (hardcodedValue == 42) {
+            System.out.println("The answer to life, the universe, and everything.");
+        }
     }
 }
+
